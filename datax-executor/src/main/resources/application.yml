@@ -18,13 +18,13 @@ datax:
       ip:
       port: 9999
       ### job log path
-      logpath: /data/applogs/executor/jobhandler
+      logpath: D:\\datax\\log  #/data/applogs/executor/jobhandler
       ### job log retention days
       logretentiondays: 30
     ### job, access token
     accessToken:
 
   executor:
-    jsonpath: D:\\temp\\executor\\json\\
-
-  pypath: F:\tools\datax\bin\datax.py
+    jsonpath: D:\\temp\executor\\json\\
+  pypath: D:\\datax\\datax-tar\\datax\\datax\\bin\\datax.py
+#  pypath: F:\tools\datax\bin\datax.py
